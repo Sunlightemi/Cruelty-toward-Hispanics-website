@@ -1,0 +1,66 @@
+/* The code on lines 3-7 makes the background of the header black and the text of the title of the webpage white. Change this to match what you want for your website! */
+header {
+    background-color: #6B4192;
+    color: #D5C3E5;
+    padding: 128px 16px;
+   text-align: center;
+}
+
+img {
+    width: 300px;
+    padding: 4px;
+    border: 2px dashed purple;
+    margin: 3px;
+}
+
+.pic1 {
+    width: 600px;
+    background-color:#D5C3E5;
+}
+
+body{
+        background-color:#A881CA;
+
+}
+
+.section1 {
+      margin: auto;
+  width: 50%;
+    background-color:#A881CA;
+}
+
+.section {
+ width:500px;  
+    
+}
+
+.bottom {
+    display: flex;
+  justify-content: center;
+    background-color:#D5C3E5;
+}
+ 
+body {
+  font-family: "Courier New", Courier, monospace; color: #261A56 ;
+}
+h1 {
+    animation-duration: 4s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slidein {
+  0% {
+    margin-left: 0%;
+  }
+  70% {
+    margin-left: 110px;
+  }
+  100% {
+    margin-left: 0%;
+  }
+}
+
+
+
+
